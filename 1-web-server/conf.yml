@@ -1,0 +1,14 @@
+serverport: 8080
+methods:
+  - endpoint: home
+    type: GET
+    # source_file: ./data/www/index.html
+    source_file: ./data/www/index.html
+    error: ./static/error.html
+  - endpoint: about
+    type: GET
+    source_file: ./static/about.html
+    # source_file: ./static/about.html
+    error: ./static/error.html
+
+log_file: logs/server.log

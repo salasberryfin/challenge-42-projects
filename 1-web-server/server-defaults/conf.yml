@@ -1,0 +1,7 @@
+serverport: 8080
+methods:
+  - endpoint: home
+    type: GET
+    source_file: ./server-defaults/index.html
+
+log_file: logs/server.log
